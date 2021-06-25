@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="mystyle.css" type="text/css">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- load the article previews -->
+  <script>
+    $(function() {
+      const articles = ["whittingham","revenant","test"];
+      for (let i = 0; i < articles.length; i++) {
+        $("#".concat(articles[i])).load(articles[i].concat(".html #title"));
+      }
+    });
+  </script>
+
+  <script>
+    $(function() {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+
+  <title>Thomas Player</title>
+
+  <meta charset="UTF-8">
+
+  <meta name="description" content="Personal website of Thomas Player">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <meta name="author" content="Thomas Player">
+
+</head>
+
+<body>
+
+  <div id="header"></div>
+
+  <div class="main">
+
+    <h1> Blog </h1>
+
+    <a href="whittingham.html" id="whittingham"></a>
+    <a href="revenant.html" id="revenant"></a>
+
+  </div>
+
+  <div id="footer"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+:root {
+  --IBM0: #000000;
+  --IBM1: #648FFF;
+  --IBM2: #DC267F;
+  --IBM3: #FFB000;
+  --IBM4: #785EF0;
+  --IBM5: #FE6100;
+  --IBM100: #FFFFFF;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a{
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .main h1{
+    width: 800px;
+  }
+  .main h2{
+    width: 800px;
+  }
+  .main p{
+    width: 800px;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+article #title {
+  display: none;
+}
+
+.main {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main h1{
+  font-size: 140%;
+  font-weight: normal;
+  color: var(--IBM4);
+}
+
+.main h2{
+  font-size: 105%;
+  font-style: normal;
+  font-weight: normal;
+  color: var(--IBM4);
+  opacity: 0.8;
+}
+
+.main p{
+  font-size: 100%;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: var(--IBM4);
+  color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: var(--IBM100);
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: var(--IBM4);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: var(--IBM4);
+  opacity: 0.5;
+  color: var(--IBM100);
+}
+
+.footer {
+  color: white;
+  padding: 10px;
+  text-align: right;
+  background: var(--IBM4);
+}
+
+* {
+  box-sizing: border-box;
+}
