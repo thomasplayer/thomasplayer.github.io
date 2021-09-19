@@ -9,7 +9,7 @@
   <!-- load the article previews -->
   <script>
     $(function() {
-      const articles = ["whittingham","revenant","intro"];
+      const articles = ["covid","whittingham","revenant","intro"];
       for (let i = 0; i < articles.length; i++) {
         $("#".concat(articles[i])).load(articles[i].concat(".html #title"));
       }
@@ -47,9 +47,13 @@
 
   <div class="main">
 
+    <p align="center"> I've been working on writing my own static blog site, the results of which you've found here!</p>
+    <p align="center"> As you can see it's not very finished yet – in the meantime my personal blog can be found <a href="https://thomasplayer.wordpress.com">here</a>.</p>
+
     <h1> Blog </h1>
 
     <a href="whittingham.html" id="whittingham"></a>
+    <a href="covid.html" id="covid"></a>
     <a href="revenant.html" id="revenant"></a>
   <!--  <a href="intro.html" id="intro"></a> -->
 
