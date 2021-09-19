@@ -9,7 +9,7 @@
   <!-- load the article previews -->
   <script>
     $(function() {
-      const articles = ["whittingham","revenant","test"];
+      const articles = ["whittingham","revenant","intro"];
       for (let i = 0; i < articles.length; i++) {
         $("#".concat(articles[i])).load(articles[i].concat(".html #title"));
       }
@@ -51,6 +51,7 @@
 
     <a href="whittingham.html" id="whittingham"></a>
     <a href="revenant.html" id="revenant"></a>
+    <a href="intro.html" id="intro"></a>
 
   </div>
 

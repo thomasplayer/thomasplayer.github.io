@@ -19,18 +19,22 @@
 
 @media screen and (min-width: 960px) {
   .main h1{
-    width: 940px;
+    width: 98%;
   }
   .main h2{
-    width: 940px;
+    width: 98%;
   }
   .main p{
-    width: 940px;
+    width: 98%;
   }
 }
 
 #small-space {
   margin-bottom: 3cm;
+}
+
+blockquote {
+  margin-left: 20%;
 }
 
 html {
