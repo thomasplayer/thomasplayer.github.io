@@ -1,20 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <link rel="stylesheet" href="mystyle.css" type="text/css">
 
 <head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <!-- load the article previews -->
-  <script>
-    $(function() {
-      const articles = ["covid","whittingham","revenant","intro"];
-      for (let i = 0; i < articles.length; i++) {
-        $("#".concat(articles[i])).load(articles[i].concat(".html #title"));
-      }
-    });
-  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <script>
     $(function() {
@@ -22,12 +14,6 @@
       $("#footer").load("footer.html");
     });
   </script>
-
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-
-  <meta http-equiv="Pragma" content="no-cache" />
-
-  <meta http-equiv="Expires" content="0" />
 
   <title>Thomas Player</title>
 
@@ -47,17 +33,8 @@
 
   <div class="main">
 
-    <p align="center"> I've been working on writing my own static blog site, the results of which you've found here!</p>
-    <p align="center"> As you can see it's not very finished yet – in the meantime my personal blog can be found <a href="https://thomasplayer.wordpress.com">here</a>.</p>
-    <p align="center"> You'll be redirected to my current blog in a few seconds, unless you click one of the links on this page...</p>
-    <meta http-equiv="refresh" content="10;url=https://thomasplayer.wordpress.com/" />
-
-    <h1> Blog </h1>
-
-    <a href="whittingham.html" id="whittingham"></a>
-    <a href="covid.html" id="covid"></a>
-    <a href="revenant.html" id="revenant"></a>
-  <!--  <a href="intro.html" id="intro"></a> -->
+    <p> I've been working on writing my own static blog site, the results of which you've found here.</p>
+    <p> As you can see it's not very finished yet – in the meantime my old personal blog can be found <a href="https://thomasplayer.wordpress.com">here</a>.</p>
 
   </div>
 

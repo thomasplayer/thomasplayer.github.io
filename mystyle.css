@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 800px) {
   .main h1{
     width: 98%;
   }
@@ -38,12 +38,12 @@ blockquote {
 }
 
 html {
-  background-color: var(--IBM4light);
+  /* background-color: var(--IBM4light); */
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 960px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
@@ -79,22 +79,22 @@ article #title {
 
 .header {
   padding: 10px;
-  text-align: center;
-  background: var(--IBM4);
-  color: white;
+  /* text-align: center; */
+  /* background: var(--IBM4); */
+  /* color: var(--IBM4); */
 }
 
 .navbar {
   overflow: hidden;
-  background-color: var(--IBM100);
+  /* background-color: var(--IBM100); */
 }
 
 .navbar a {
   float: left;
   display: block;
   color: var(--IBM4);
-  text-align: center;
-  padding: 14px 20px;
+  text-align: left;
+  padding: 10px 10px;
   text-decoration: none;
 }
 
@@ -103,9 +103,9 @@ article #title {
 }
 
 .navbar a:hover {
-  background-color: var(--IBM4mid);
+  /* background-color: var(--IBM4mid); */
   opacity: 0.5;
-  color: var(--IBM100);
+  color: var(--IBM4);
 }
 
 .navbar a:focus {
@@ -119,18 +119,23 @@ a {
 }
 
 a:hover {
-  color: var(--IBM4mid);
+  opacity: 0.5;
+  color: var(--IBM4);
 }
 
 a:focus {
   color: var(--IBM4);
 }
 
+a:visited {
+  color: var(--IBM3);
+}
+
 .footer {
-  color: white;
+  /* color: white; */
   padding: 10px;
   text-align: right;
-  background: var(--IBM4);
+  /* background: var(--IBM4); */
 }
 
 * {
