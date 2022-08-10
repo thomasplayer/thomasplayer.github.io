@@ -1,13 +1,13 @@
 :root {
-  --IBM0: #000000;
-  --IBM1: #648FFF;
-  --IBM2: #DC267F;
-  --IBM3: #FFB000;
-  --IBM4: #785EF0;
+  --IBM0: #000000; /* black */
+  --IBM1: #648FFF; /* light blue */
+  --IBM2: #DC267F; /* pink */
+  --IBM3: #FFB000; /* yellow */
+  --IBM4: #785EF0; /* purple */
   --IBM4light: #ebe8fd;
   --IBM4mid: #c4b9f8;
-  --IBM5: #FE6100;
-  --IBM100: #FFFFFF;
+  --IBM5: #FE6100; /* orange */
+  --IBM100: #FFFFFF; /* white */
 }
 
 @media screen and (max-width: 400px) {
@@ -92,7 +92,7 @@ article #title {
 .navbar a {
   float: left;
   display: block;
-  color: var(--IBM4);
+  color: var(--IBM3);
   text-align: left;
   padding: 10px 10px;
   text-decoration: none;
@@ -105,26 +105,26 @@ article #title {
 .navbar a:hover {
   /* background-color: var(--IBM4mid); */
   opacity: 0.5;
-  color: var(--IBM4);
+  color: var(--IBM3);
 }
 
 .navbar a:focus {
   background-color: white;
   opacity: 1;
-  color: var(--IBM4);
+  color: var(--IBM3);
 }
 
 a {
-  color: var(--IBM4);
+  color: var(--IBM3);
 }
 
 a:hover {
   opacity: 0.5;
-  color: var(--IBM4);
+  color: var(--IBM3);
 }
 
 a:focus {
-  color: var(--IBM4);
+  color: var(--IBM3);
 }
 
 a:visited {
