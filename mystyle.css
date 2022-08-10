@@ -8,6 +8,7 @@
   --IBM4mid: #c4b9f8;
   --IBM5: #FE6100; /* orange */
   --IBM100: #FFFFFF; /* white */
+  --contrast_colour: #785EF0;
 }
 
 @media screen and (max-width: 400px) {
@@ -32,6 +33,7 @@
 #small-space {
   margin-bottom: 3cm;
 }
+
 
 blockquote {
   margin-left: 20%;
@@ -62,15 +64,15 @@ article #title {
 
 .main h1{
   font-size: 140%;
-  font-weight: normal;
-  color: var(--IBM4);
+  font-weight: bold;
+  color: var(--IBM0);
 }
 
 .main h2{
   font-size: 105%;
   font-style: normal;
   font-weight: normal;
-  color: var(--IBM4);
+  color: var(--IBM0);
 }
 
 .main p{
@@ -92,7 +94,7 @@ article #title {
 .navbar a {
   float: left;
   display: block;
-  color: var(--IBM3);
+  color: var(--contrast_colour);
   text-align: left;
   padding: 10px 10px;
   text-decoration: none;
@@ -105,30 +107,30 @@ article #title {
 .navbar a:hover {
   /* background-color: var(--IBM4mid); */
   opacity: 0.5;
-  color: var(--IBM3);
+  color: var(--contrast_colour);
 }
 
 .navbar a:focus {
   background-color: white;
   opacity: 1;
-  color: var(--IBM3);
+  color: var(--contrast_colour);
 }
 
 a {
-  color: var(--IBM3);
+  color: var(--contrast_colour);
 }
 
 a:hover {
   opacity: 0.5;
-  color: var(--IBM3);
+  color: var(--contrast_colour);
 }
 
 a:focus {
-  color: var(--IBM3);
+  color: var(--contrast_colour);
 }
 
 a:visited {
-  color: var(--IBM3);
+  color: var(--contrast_colour);
 }
 
 .footer {
