@@ -2,28 +2,87 @@
 
 <html lang="en">
 
-<link rel="stylesheet" href="mystyle.css" type="text/css">
+
+<style>
+
+:root {
+  --IBM0: #000000; /* black */
+  --IBM1: #648FFF; /* light blue */
+  --IBM2: #DC267F; /* pink */
+  --IBM3: #FFB000; /* yellow */
+  --IBM4: #785EF0; /* purple */
+  --IBM5: #FE6100; /* orange */
+  --IBM6: #FFFFFF; /* white */
+  --IBM4light: #f7f5ff; /* light purple */
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: var(--IBM4light);
+}
+
+a {
+  color: var(--IBM4);
+}
+
+a:hover {
+  opacity: 0.5;
+  color: var(--IBM4);
+}
+
+a:focus {
+  color: var(--IBM4);
+}
+
+a:visited {
+  opacity: 0.8
+  color: var(--IBM4);
+}
+
+h1{
+  font-size: 200%;
+  font-weight: bold;
+  color: var(--IBM0);
+}
+
+.main {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.header{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.adaptable{
+  float:right;
+  width:35%;
+}
+
+@media screen and (max-width: 768px) {
+  .adaptable{
+    float:left;
+    width:45%;
+  }
+}
+
+</style>
 
 <head>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-  <script>
-    $(function() {
-      $("#header").load("header.html");
-      $("#footer").load("footer.html");
-    });
-  </script>
 
   <title>Thomas Player</title>
 
   <meta charset="UTF-8">
-
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-
-  <meta http-equiv="Pragma" content="no-cache" />
-
-  <meta http-equiv="Expires" content="0" />
 
   <meta name="description" content="Personal website of Thomas Player">
 
@@ -33,39 +92,33 @@
 
 </head>
 
+
 <body>
 
-  <div id="header"></div>
+  <div class="header">
 
-  <div class="main">
-
-    <h1> Writing </h1>
-
-    <p>Reviews: <a href="https://cherwell.org/2016/01/16/review-the-revenant/">The Revenant</a>,
-      <a href="https://cherwell.org/2016/04/13/review-disorder-dull-and-boring/">Disorder</a>,
-      <a href="https://cherwell.org/2016/05/23/review-florence-foster-jenkins/">Florence Foster Jenkins</a>,
-      <a href="https://cherwell.org/2016/09/12/review-war-dogs/">War Dogs</a>,
-      <a href="https://cherwell.org/2017/04/29/a-little-known-gem/">Dear Brutus</a>,
-      <a href="https://cherwell.org/2019/02/14/review-pirandellos-henry-iv-earnest-production-let-down-by-a-dull-script/">Pirandello's Henry IV</a>,
-      <a href="https://cherwell.org/2019/06/10/review-a-view-from-the-bridge-dramatic-gripping-and-surprisingly-funny/">A View from the Bridge</a>,
-      <a href="https://cherwell.org/2019/10/28/review-me-as-a-penguin-bound-to-put-a-smile-on-your-face/">Me, as a Penguin</a>,
-      all originally published in <em>Cherwell</em>.</p>
-    <p>Preview: <a href="https://cherwell.org/2016/05/19/preview-sweeney-todd-2/">Sweeney Todd</a>, originally published in <em>Cherwell</em>.</p>
-    <p> <a href="https://oxsci.org/birds-eye-view-of-navigation/">A Bird's Eye View of Navigation</a>, originally published in <em>The Oxford Scientist</em>.</p>
-
-    <h1> Research </h1>
-    <p>View my <a href="https://ora.ox.ac.uk/objects/uuid:5de616e1-32c8-496b-808a-41c4c8100e6c/download_file?safe_filename=Player_2021_Spin_dynamics_calculations.pdf.pdf&type_of_work=Thesis">PhD thesis</a>, or my peer reviewed publications on <a href="https://scholar.google.com/citations?user=QYa4TgwAAAAJ&hl=en">Google Scholar</a> or <a href="https://orcid.org/0000-0001-5901-1722">ORCiD</a>.</p>
-    &nbsp;
-
-    <p> PS: This site isn't quite finished yet – my old personal blog can be found <a href="https://thomasplayer.wordpress.com">here</a>.</p>
-
+    <p><h1>Thomas Player</h1></p>
+    <p> <a target="_blank" href="mailto:info@thomasplayer.me">Email</a> / <a target="_blank" href="https://uk.linkedin.com/in/thomas-player">LinkedIn</a> / <a target="_blank" href="https://www.twitter.com/DrThomasPlayer">Twitter</a> </p>
 
   </div>
 
-  <p class="small-space"> </p>
 
-  <div id="footer"></div>
+  <div class="main">
+
+  <div style="float:left; width:60%;">
+    <img src="thomas_green.png" alt="Thomas Player" width="100%">
+    <p>Science writer and tutor in Oxford.</p>
+    <p>Check out <a href="thomas_player_1.pdf">examples</a> of my <a href="thomas_player_2.pdf">writing</a> and <a href="https://www.chem.ox.ac.uk/files/periodic22-23onlinepdf">design</a> work, or take a look at my <a href="https://ora.ox.ac.uk/objects/uuid:5de616e1-32c8-496b-808a-41c4c8100e6c/files/rh128nf18c">PhD thesis</a> and <a href="https://orcid.org/0000-0001-5901-1722">academic publications</a>.</p>
+  </div>
+
+  <div class="adaptable">
+    <p>Contact me at <a target="_blank" href="mailto:info@thomasplayer.me">info@thomasplayer.me</a>.</p>
+  </div>
+
+  </div>
 
 </body>
+
+
 
 </html>
