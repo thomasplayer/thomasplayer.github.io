@@ -63,15 +63,24 @@ h1{
   margin-right: 30px;
 }
 
-.adaptable{
+.adaptable-right{
   float:right;
   width:35%;
 }
 
+.adaptable-left{
+  float:left;
+  width:60%;
+}
+
 @media screen and (max-width: 768px) {
-  .adaptable{
+  .adaptable-left{
     float:left;
-    width:45%;
+    width:80%;
+  }
+  .adaptable-right{
+    float:left;
+    width:80%;
   }
 }
 
@@ -105,13 +114,13 @@ h1{
 
   <div class="main">
 
-  <div style="float:left; width:60%;">
-    <img src="thomas_green.png" alt="Thomas Player" width="100%">
+  <div class="adaptable-left">
+    <img src="headshot_s.jpg" alt="Thomas Player" width="100%">
     <p>Science writer and tutor in Oxford.</p>
     <p>Check out <a href="thomas_player_1.pdf">examples</a> of my <a href="thomas_player_2.pdf">writing</a> and <a href="https://www.chem.ox.ac.uk/files/periodic22-23onlinepdf">design</a> work, or take a look at my <a href="https://ora.ox.ac.uk/objects/uuid:5de616e1-32c8-496b-808a-41c4c8100e6c/files/rh128nf18c">PhD thesis</a> and <a href="https://orcid.org/0000-0001-5901-1722">academic publications</a>.</p>
   </div>
 
-  <div class="adaptable">
+  <div class="adaptable-right">
     <p>Contact me at <a target="_blank" href="mailto:info@thomasplayer.me">info@thomasplayer.me</a>.</p>
   </div>
 
