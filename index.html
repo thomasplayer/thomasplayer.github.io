@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<style>
+
+:root {
+  --IBM0: #000000; /* black */
+  --IBM1: #648FFF; /* light blue */
+  --IBM2: #DC267F; /* pink */
+  --IBM3: #FFB000; /* yellow */
+  --IBM4: #785EF0; /* purple */
+  --IBM5: #FE6100; /* orange */
+  --IBM6: #FFFFFF; /* white */
+  --IBM4light: #f7f5ff; /* light purple */
+}
+
+
+body {
+  font-size: 130%;
+  font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+  font-stretch: condensed;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: var(--IBM4light);
+}
+
+a {
+  color: var(--IBM4);
+}
+
+a:hover {
+  opacity: 0.5;
+  color: var(--IBM4);
+}
+
+a:focus {
+  color: var(--IBM4);
+}
+
+a:visited {
+  opacity: 0.8
+  color: var(--IBM4);
+}
+
+h1{
+  font-size: 200%;
+  font-weight: bold;
+  color: var(--IBM0);
+}
+
+.main {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.header{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.adaptable-right{
+  float:right;
+  width:35%;
+}
+
+.adaptable-left{
+  float:left;
+  width:60%;
+}
+
+@media screen and (max-width: 768px) {
+  .adaptable-left{
+    float:left;
+    width:80%;
+  }
+  .adaptable-right{
+    float:left;
+    width:80%;
+  }
+}
+
+</style>
+
+<head>
+
+
+  <title>Thomas Player</title>
+
+  <meta charset="UTF-8">
+
+  <meta name="description" content="Personal website of Thomas Player">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <meta name="author" content="Thomas Player">
+
+</head>
+
+
+<body>
+
+  <div class="header">
+
+    <p><h1>Thomas Player</h1></p>
+
+  </div>
+
+  <div class="main">
+
+    <p>Science writer and tutor in Oxford.</p>
+    <p>Check out examples of my <a href="thomas_player_1.pdf">writing</a> and <a href="https://www.chem.ox.ac.uk/sitefiles/periodic-23-for-web-231114.pdf">design</a> work, or take a look at my <a href="https://ora.ox.ac.uk/objects/uuid:5de616e1-32c8-496b-808a-41c4c8100e6c/files/rh128nf18c">PhD thesis</a> and <a href="https://orcid.org/0000-0001-5901-1722">academic publications</a>.</p>
+    <p>✉ <a target="_blank" href="mailto:info@thomasplayer.me">info@thomasplayer.me</a>.</p>
+
+  </div>
+
+</body>
+
+
+
+</html>
